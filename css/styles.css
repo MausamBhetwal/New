@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Baloo Tamma 2', cursive, serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #40514e;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 4rem;
+  margin-bottom: 0;
+  color: #2F4F4F;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #008080;
+}
+
+h3 {
+  color: #20B2AA;
+}
+
+hr {
+  background-color: transparent;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin-bottom: 5%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.helpp {
+  width: 30%;
+  margin: 50px auto 100px auto;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.top-container {
+  background-color: skyblue;
+  position: relative;
+  padding-top: 150px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 80px;
+  right: 400px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.middle-container {
+  margin: 100px auto 100px auto;
+}
+
+.webdevimg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cyberimg {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Baloo Tamma 2', cursive, serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#eaf6f6;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #11999E 5%, #11999E 100%);
+  background-color: #11999E;
+  border-radius: 15px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Baloo Tamma 2', cursive, serif;
+  font-size: 17px;
+  padding: 11px 23px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #8FCFD1 5%, #8FCFD1 100%);
+  background-color: #8FCFD1;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px 0;
+}
+
+.copyright{
+  font-family: 'Baloo Tamma 2', cursive, serif;
+  color:#eaf6f6;
+  font-size: 1rem;
+}
